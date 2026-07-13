@@ -2,11 +2,11 @@
 
 Diseño e implementación de una infraestructura de red multicampus para la Universidad Autónoma de Aguascalientes utilizando segmentación mediante VLANs, direccionamiento IPv4 con VLSM y enrutamiento estático en Cisco Packet Tracer.
 
-El proyecto contempla la interconexión de tres sedes (Campus Central, Campus Sur y Campus Posta), permitiendo la comunicación entre departamentos mediante una arquitectura segmentada y escalable.
+El proyecto contempla la interconexión de tres sedes (Campus Central, Campus Sur y Campus Posta), permitiendo la comunicación entre departamentos mediante una arquitectura segmentada y escalable. Cada campus incorpora múltiples áreas funcionales aisladas mediante VLANs independientes y conectadas entre sí mediante configuraciones de routing.
 
-## Objetivo
+Se consideró e implementó la comunicación entre sedes a través de enlaces dedicados y ruteo estático, permitiendo el intercambio de información entre todos los segmentos de la red.
 
-Diseñar e implementar una infraestructura de red para tres campus universitarios, utilizando técnicas de subneteo VLSM, segmentación mediante VLANs y ruteo estático, con el propósito de optimizar la administración de recursos de red y permitir la comunicación eficiente entre usuarios, departamentos y sedes.
+Este proyecto integra conceptos de switching, routing, segmentación lógica, subneteo avanzado y administración de redes empresariales, ofreciendo una solución que simula la infraestructura de comunicaciones de una institución distribuida en múltiples campus universitarios.
 
 ## Tecnologías Utilizadas
 
