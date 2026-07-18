@@ -8,6 +8,11 @@ Se consideró e implementó la comunicación entre sedes a través de enlaces de
 
 Este proyecto integra conceptos de switching, routing, segmentación lógica, subneteo avanzado y administración de redes empresariales, ofreciendo una solución que simula la infraestructura de comunicaciones de una institución distribuida en múltiples campus universitarios.
 
+<p align="center">
+    <img src="screenshots/distribucion_logica.png" alt="distribucion_logica" width="50%"><br>
+    <em>Figura 1. Diseño lógico de la infraestructura de red multicampus.</em><br>
+</p>
+
 ## Tecnologías Utilizadas
 
 - Cisco Packet Tracer
@@ -36,6 +41,11 @@ Cada una con 5 departamentos:
 - Control Escolar
 - Recursos Humanos
 - Redes
+
+<p align="center">
+    <img src="screenshots/distribucion_fisica_campus_central.png" alt="dist_fisica_campus_central" width="50%"><br>
+    <em>Figura 2. Distribución física y segmentación de red del Campus Central.</em><br>
+</p>
 
 ## Segmentación mediante VLANs
 
@@ -140,6 +150,10 @@ Las pruebas se realizaron desde equipos pertenecientes a diferentes departamento
 
 ```text
 Red-Multicampus-UAA/
+│
+├── screenshots/
+│   ├── distribucion_logica.png
+│   └── distribucion_fisica_campus_central.png
 │
 ├── docs/
 │   └── Documentacion-Tecnica-Red.pdf
